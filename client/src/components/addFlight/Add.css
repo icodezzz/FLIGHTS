@@ -1,0 +1,104 @@
+body {
+    background-image: url("../img/flt.jpg");
+    
+    background-size: cover;
+    
+
+}
+#btn{
+    background-color: rgb(193, 229, 217);
+    font-weight: bold;
+    
+}
+#btn:hover{
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  h3 {
+    color: #333;
+    font-weight: 600; 
+    margin-bottom: 30px; 
+  }
+  
+
+  a.btn-link {
+    color: #007bff; 
+    font-size: 16px; 
+    font-weight: 500; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-bottom: 15px; 
+  }
+  
+  a.btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline; 
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  input.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  input.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-group.row {
+    margin-bottom: 20px;
+  }
+  
+  button.btn.btn-success {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button.btn.btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 576px) {
+    .form-group.row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .col-sm-2 {
+      margin-bottom: 10px;
+    }
+  
+    .col-sm-10 {
+      width: 100%;
+    }
+  }
+  
+  

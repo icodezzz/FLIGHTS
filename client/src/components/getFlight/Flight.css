@@ -1,0 +1,95 @@
+body{
+    background-color: azure;
+    
+}
+
+.FlightTable table {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: black;
+  
+    color: black;
+    
+  }
+  /* #del{
+    color: black;
+  } */
+  /* #del:hover{
+    color: aliceblue;
+    background-color: rgb(8, 8, 8);
+  } */
+  .table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .addButton {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .actionButtons button, .actionButtons a {
+    padding: 5px 15px;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+ 
+  
+  .actionButtons button {
+    background-color: #f70606cd;
+    color: white;
+    border: none;
+  }
+
+  
+  .actionButtons button:hover {
+    background-color: #003beb;
+  }
+  
+  
+  /* .actionButtons a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  } */
+  
+  /* .actionButtons a:hover {
+    background-color: #0056b3;
+  }
+   */
+  .actionButtons button i, .actionButtons a i {
+    margin-right: 5px;
+  }
+  
